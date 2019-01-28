@@ -423,11 +423,7 @@
                             </dependency>
                         </dependencies>
                     </plugin>
-                </plugins>
-            </build>
-            <reporting>
-                <plugins>
-                    <plugin>
+					<plugin>
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>cobertura-maven-plugin</artifactId>
                         <version>${cobertura.version}</version>
@@ -438,6 +434,11 @@
                             </formats>
                         </configuration>
                     </plugin>
+                </plugins>
+            </build>
+            <reporting>
+                <plugins>
+                    
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-pmd-plugin</artifactId>
